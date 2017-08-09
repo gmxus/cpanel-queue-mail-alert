@@ -1,5 +1,5 @@
 ### cpanel-queue-mail-alert
-##### Here, is the script which can help to get mail alert for "cPanel server mail queue" its helps to protect from spammers
+##### Here, is the script which can help to get mail alert for "cPanel server mail queue" its helps to give alert to protect from spammers
 
 
       #!/bin/bash
