@@ -17,6 +17,6 @@ then
 	echo "Current queue is: $_queue" > $_result
 	echo "Summary of Mail queue" >> $_result
 	echo "$_summary" >> $_result
-	/usr/bin/mail -s "Number of mails on `hostname` Makkal-TV Server : $_queue" -r "Mail_Queue_Alert!!<owncpanelsampleid@xyz.com>" $_mail_user < $_result
+	/usr/bin/mail -s "Number of mails on `hostname` Subject_Name : $_queue" -r "Mail_Queue_Alert!!<owncpanelsampleid@xyz.com>" $_mail_user < $_result
 	cat $_result
 fi
